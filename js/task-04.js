@@ -3,9 +3,7 @@ const refs = {
     increment: document.querySelector('button[data-action="increment"]'),
     span: document.querySelector('#value'),
 };
-const handleBtnClick = () => {
 
-}
 let counterValue = 0;
 refs.decrement.addEventListener('click',  () => {
     refs.span.textContent = counterValue -= 1;
